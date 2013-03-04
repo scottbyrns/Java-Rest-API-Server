@@ -1,0 +1,33 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+    version="1.0">
+    <!--<persistence-unit name="ideaPersistenceUnit">-->
+        <!--<properties>-->
+            <!--<class>com.ideas.entities.ideas.Idea</class>-->
+            <!--<class>com.ideas.entities.ideas.Like</class>-->
+            <!--<property name="hibernate.generate_statistics" value="false" />-->
+            <!--<property name="hibernate.cache.use_structured_entries"-->
+                <!--value="true" />-->
+
+            <!--&lt;!&ndash;<property subject="hibernate.hbm2ddl.auto" value="update" />&ndash;&gt;-->
+            <!--<property name="hibernate.show_sql" value="true" />-->
+            <!--<property name="hibernate.format_sql" value="true" />-->
+            <!--<property name="hibernate.jdbc.batch_size" value="100" />-->
+            <!--<property name="hibernate.connection.pool_size" value="5" />-->
+        <!--</properties>-->
+    <!--</persistence-unit>-->
+
+    <!--<persistence-unit name="likePersistenceUnit">-->
+        <!--<properties>-->
+            <!--<class>com.ideas.entities.ideas.Like</class>-->
+            <!--<property name="hibernate.generate_statistics" value="false" />-->
+            <!--<property name="hibernate.cache.use_structured_entries" value="true" />-->
+
+            <!--<property name="hibernate.show_sql" value="true" />-->
+            <!--<property name="hibernate.format_sql" value="true" />-->
+            <!--<property name="hibernate.jdbc.batch_size" value="100" />-->
+            <!--<property name="hibernate.connection.pool_size" value="5" />-->
+        <!--</properties>-->
+    <!--</persistence-unit>-->
+</persistence>

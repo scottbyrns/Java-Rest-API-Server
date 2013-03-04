@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context docBase="eis" debug="5" path="" reloadable="true">
+
+    <Resource name="jdbc/ideas" auth="Container" type="
+ javax.sql.DataSource"
+
+              maxActive="100" maxIdle="30" maxWait="1000"
+
+              username="root" password="" driverClassName=
+            "com.mysql.jdbc.Driver"
+
+              url="jdbc:mysql://localhost:3306/ideas"/>
+
+</Context>
