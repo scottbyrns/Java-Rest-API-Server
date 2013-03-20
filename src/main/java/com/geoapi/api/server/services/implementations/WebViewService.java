@@ -44,6 +44,7 @@ public class WebViewService
         return homepage;
     }
 
+
     @GET
     @Path("/doc/")
     public String doc ()
@@ -92,6 +93,22 @@ public class WebViewService
         }
         String css = readFileAsString(classPathResource.getPath());
         return css;
+    }
+
+    @GET
+    @Path("js/{parent}/{child}")
+    @Produces("application/javascript")
+    public String js (@PathParam("parent") String parent, @PathParam("child") String child)
+    {
+        return javascript(parent.concat("/").concat(child));
+    }
+
+    @GET
+    @Path("js/{parent}")
+    @Produces("application/javascript")
+    public String js (@PathParam("parent") String parent)
+    {
+        return javascript(parent);
     }
 
     @GET

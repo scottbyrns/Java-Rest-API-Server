@@ -47,10 +47,9 @@
              <cxf:logging/>
         </jaxrs:features>
         <jaxrs:serviceBeans>
-            <ref bean="copyrightService" />
+
             <ref bean="webViewService" />
             <ref bean="healthService"/>
-            <ref bean="userService" />
 
 
         </jaxrs:serviceBeans>
@@ -78,8 +77,6 @@
 
     <bean id="webViewService" class="com.geoapi.api.server.services.implementations.WebViewService"></bean>
 
-    <bean id="copyrightService" class="com.geoapi.api.server.services.implementations.CopyrightService"></bean>
-    <bean id="userService" class="com.geoapi.api.server.services.implementations.UserService"></bean>
 
 
 </beans>

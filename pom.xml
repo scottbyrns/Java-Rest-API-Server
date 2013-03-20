@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Geo API</name>
-    <description>The simple geo-location api that any one can use.</description>
+    <name>Server API</name>
+    <description>The self documenting reflective api.</description>
 
-    <groupId>com.nodezero</groupId>
+    <groupId>com.scottbyrns.api</groupId>
     <packaging>war</packaging>
-    <artifactId>ServerAPI</artifactId>
+    <artifactId>Server</artifactId>
     <version>1.0.00-SNAPSHOT</version>
 
 
@@ -374,6 +374,7 @@
             		<server>TomcatServer</server>
             		<path>/SNAPSHOTS/${node-zero.deploy-path}</path>
                     <warFile>${project.basedir}/target/${project.build.finalName}.war</warFile>
+                    <port>9274</port>
             	</configuration>
             </plugin>
             <!--<plugin>-->
